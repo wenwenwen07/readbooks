@@ -1,0 +1,207 @@
+<view class="main">
+  <view class="title">
+    <view class="title-item">
+      <navigator class="iconfont icon-paihangbang"></navigator>
+    </view>
+    <view class="title-item title-right">
+      <navigator class="iconfont icon-caidanlan" url=""></navigator>
+    </view>
+  </view>
+  <view class="search">
+    <icon class="iconfont icon-search"></icon>
+    <input class="search-" type="text" placeholder="搜索..." />
+  </view>
+  <view class="classify">
+    <view class="classify-title">
+      <text class="classify-title-list">分类排行</text>
+      <view class="classify-title-list title-right">
+        查看全部
+        <icon class="iconfont icon-right"></icon>
+      </view>
+    </view>
+    <view class="classify-list">
+      <navigator url="../scienceFiction/scienceFiction" class="classify-list-item">
+        <image class="classify-img" src="../../assets/Success0.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">科幻</text>
+      </navigator>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/Success.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">生活</text>
+      </view>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/Success1.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">露营</text>
+      </view>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/Success.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">职场</text>
+      </view>
+    </view>
+  </view>
+  <view class="classify">
+    <view class="classify-title">
+      <text class="classify-title-list">作者排行</text>
+      <view class="classify-title-list title-right">
+        查看全部
+        <icon class="iconfont icon-right"></icon>
+      </view>
+    </view>
+    <view class="classify-list">
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/author0.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">刘慈欣</text>
+      </view>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/author1.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">田小花</text>
+      </view>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/author2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">马尔克斯</text>
+      </view>
+      <view class="classify-list-item">
+        <image class="classify-img" src="../../assets/author0.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <text class="classify-text">余秋雨</text>
+      </view>
+    </view>
+  </view>
+  <view class="books">
+    <view class="classify-title">
+      <text class="classify-title-list">新发布</text>
+      <view class="classify-title-list title-right">
+        查看全部
+        <icon class="iconfont icon-right"></icon>
+      </view>
+    </view>
+    <view class="books-list">
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books2.png"></image>
+        <view>
+          <text class="books-name">三体:死神永生</text>
+          <text class="books-author">刘慈欣</text>
+        </view>
+      </view>
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books1.png"></image>
+        <view>
+          <text class="books-name">人类简史</text>
+          <text class="books-author">尤瓦尔·赫拉利</text>
+        </view>
+      </view>
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books.png"></image>
+        <view>
+          <text class="books-name">许三观卖血记</text>
+          <text class="books-author">余华</text>
+        </view>
+      </view>
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books5.png"></image>
+        <view>
+          <text class="books-name">未来简史</text>
+          <text class="books-author">尤瓦尔·赫拉利</text>
+        </view>
+      </view>
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books4.png"></image>
+        <view>
+          <text class="books-name">自私的基因</text>
+          <text class="books-author">理查德·道金森</text>
+        </view>
+      </view>
+      <view class="books-list-item">
+        <image class="books-image" src="../../assets/books3.png"></image>
+        <view>
+          <text class="books-name">百年孤独</text>
+          <text class="books-author">马尔克斯</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="hot-search">
+    <view class="classify-title">
+      <text class="classify-title-list">热门搜索</text>
+    </view>
+    <view class="hot-search-list">
+      <view class="hot-search-list-item" style="border : 2px solid #{{col1}};color:#{{col1}}">
+        2018排行榜
+      </view>
+      <view class="hot-search-list-item" style="border : 2px solid #{{col2}};color:#{{col2}}">
+        职场热门
+      </view>
+      <view class="hot-search-list-item" style="border : 2px solid #{{col3}};color:#{{col3}}">
+        都市言情
+      </view>
+      <view class="hot-search-list-item" style="border : 2px solid #{{col4}};color:#{{col4}}">
+        哈佛大学经济管理类
+      </view>
+      <view class="hot-search-list-item" style="border : 2px solid #{{col5}};color:#{{col5}}">
+        领导才能
+      </view>
+    </view>
+  </view>
+  <view class="hot-sale">
+    <view class="classify-title">
+      <text class="classify-title-list">热销榜</text>
+      <view class="classify-title-list title-right">
+        查看全部
+        <icon class="iconfont icon-right"></icon>
+      </view>
+    </view>
+    <view class="hot-sale-list">
+      <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+      <view class="hot-sale-massage">
+        <view class="hot-sale-book-name">
+          <text>三体：死神永生</text>
+          <icon class="iconfont icon-more"></icon>
+        </view>
+        <view class="hot-sale-author">作者：刘慈心</view>
+        <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+      </view>
+    </view>
+    <view class="hot-sale-list">
+      <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+      <view class="hot-sale-massage">
+        <view class="hot-sale-book-name">
+          <text>三体：死神永生</text>
+          <icon class="iconfont icon-more"></icon>
+        </view>
+        <view class="hot-sale-author">作者：刘慈心</view>
+        <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+      </view>
+    </view>
+    <view class="hot-sale-list">
+      <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+      <view class="hot-sale-massage">
+        <view class="hot-sale-book-name">
+          <text>三体：死神永生</text>
+          <icon class="iconfont icon-more"></icon>
+        </view>
+        <view class="hot-sale-author">作者：刘慈心</view>
+        <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+      </view>
+    </view>
+    <view class="hot-sale-list">
+      <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+      <view class="hot-sale-massage">
+        <view class="hot-sale-book-name">
+          <text>三体：死神永生</text>
+          <icon class="iconfont icon-more"></icon>
+        </view>
+        <view class="hot-sale-author">作者：刘慈心</view>
+        <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+      </view>
+    </view>
+    <view class="hot-sale-list">
+      <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+      <view class="hot-sale-massage">
+        <view class="hot-sale-book-name">
+          <text>三体：死神永生</text>
+          <icon class="iconfont icon-more"></icon>
+        </view>
+        <view class="hot-sale-author">作者：刘慈心</view>
+        <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+      </view>
+    </view>
+  </view>
+</view>

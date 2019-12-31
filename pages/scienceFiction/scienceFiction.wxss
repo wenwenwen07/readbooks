@@ -1,0 +1,71 @@
+/* pages/scienceFiction/scienceFiction.wxss */
+
+.main{
+background-color: #21272e;
+}
+
+.hot-sale {
+    padding-bottom: 85rpx;
+}
+
+.hot-sale::after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.hot-sale-list {
+    width: 598rpx;
+    height: 250rpx;
+    float: left;
+    display: flex;
+    padding-left: 32rpx;
+    margin-left: 48rpx;
+    background-color: #2a313a;
+    border-radius: 12rpx;
+    position: relative;
+    left: 0;
+    margin-top: 92rpx;
+}
+
+.hot-sale-img {
+    height: 250rpx;
+    width: 168rpx;
+    flex: 1 0 auto;
+    position: relative;
+    bottom: 32rpx;
+}
+
+.hot-sale-massage {
+    padding-left: 30rpx;
+    padding-top: 28rpx;
+}
+
+.hot-sale-book-name {
+    font-size: 1.2em;
+    position: relative;
+    line-height: 1em;
+    color: #fff;
+}
+
+.hot-sale-book-name .iconfont {
+    font-size: 1em;
+    position: absolute;
+    top: -10rpx;
+    right: 20rpx;
+}
+
+.hot-sale-author {
+    font-size: .8em;
+    padding: 14rpx 0;
+    border-bottom: 2rpx solid #353c46;
+    color: #5d637c;
+}
+
+.hot-sale-intro {
+    color: #747b95;
+    font-size: 0.6em;
+}

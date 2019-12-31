@@ -1,0 +1,51 @@
+<!-- pages/explore/explore.wxml -->
+<view class="main">
+    <view class="explore-title">
+        <text>探索</text>
+        <view class="explore-title-btns">
+            <icon class="iconfont icon-qiapianmoshi_kuai" wx:if="{{show}}" bindtap="switchDisplay" data-show='false'></icon>
+            <icon class="iconfont icon-qiapianmoshi_kuai active" wx:else bindtap="switchDisplay" data-show='false'></icon>
+            <icon class="iconfont icon-dantupailie" wx:if="{{!show}}" bindtap="switchDisplay" data-show='true'></icon>
+            <icon class="iconfont icon-dantupailie active" wx:else bindtap="switchDisplay" data-show='true'></icon>
+        </view>
+    </view>
+    <view wx:if="{{show}}" class="list-item">
+        <image class="list-item-photo" src="../../assets/books2.png" />
+        <view class="book-name">三体：死神永生</view>
+        <text class="book-author">刘慈心</text>
+        <view class="read-user">
+            <view class="">
+                <image class="user-photos" src="../../assets/user-photo-01.gif"></image>
+                <image class="user-photos" src="../../assets/user-photo-02.gif"></image>
+                <image class="user-photos" src="../../assets/user-photo-03.gif"></image>
+                <image class="user-photos" src="../../assets/user-photo-04.gif"></image>
+            </view>
+            <text class="read-people">{{people}}人已阅读</text>
+        </view>
+        <view class="referrer">
+            <image class="referrer-photo" src="../../assets/books2.png"></image>
+            <view>
+                <text class="referrer-name">陈小东</text>
+                <text class="referrer-title">推荐</text>
+            </view>
+        </view>
+    </view>
+    <view wx:else class="more-item">
+        <view class="more-list">
+            <image class="more-book-photo" src="../../assets/books2.png" />
+            <text class="more-book-name">三体:死神永生</text>
+        </view>
+        <view class="more-list">
+            <image class="more-book-photo" src="../../assets/books1.png" />
+            <text class="more-book-name">三体:死神永生</text>
+        </view>
+        <view class="more-list">
+            <image class="more-book-photo" src="../../assets/books.png" />
+            <text class="more-book-name">三体:死神永生</text>
+        </view>
+        <view class="more-list">
+            <image class="more-book-photo" src="../../assets/books3.png" />
+            <text class="more-book-name">三体:死神永生</text>
+        </view>
+    </view>
+</view>

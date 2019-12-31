@@ -1,0 +1,156 @@
+/* pages/explore/explore.wxss */
+
+.main{
+    background-color: #21272e;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.main::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.explore-title{
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+
+.explore-title-btns{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.explore-title .iconfont{
+
+    color: #71768c;
+    margin-right: 30rpx;
+}
+
+.explore-title .iconfont.active{
+    color: #fff;
+}
+
+.list-item{
+    text-align: center;
+    padding-top: 91rpx;
+    padding-bottom: 240rpx;
+}
+
+.list-item::after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.list-item-photo{
+    width: 390rpx;
+    height: 580rpx;
+}
+
+.book-name{
+    padding-top: 46rpx;
+    line-height: 42rpx;
+    font-size: 42rpx;
+}
+
+.book-author{
+    display: inline-block;
+    width: 400rpx;
+    text-align: center;
+    padding-top: 34rpx;
+    padding-bottom: 72rpx;
+    font-size: 34rpx;
+    line-height: 34rpx;
+    color: #656a7b;
+    border-bottom: 2rpx solid #2e3640;
+}
+
+
+.read-user{
+    padding-top: 48rpx;
+}
+
+.user-photos{
+    width: 68rpx;
+    height: 68rpx;
+    margin: 0 10rpx;
+}
+
+.referrer{
+    width: 238rpx;
+    height: 84rpx;
+    border-top-left-radius: 42rpx;
+    border-bottom-left-radius: 42rpx;
+    background: #15191d;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    display: flex;
+    padding-top: 8rpx;
+    box-sizing: border-box;
+    margin-top: 85rpx;
+}
+
+.referrer text{
+    display: block;
+    line-height: 34rpx;
+    padding-left: 8rpx;
+}
+
+.referrer-name{
+    font-size: 24rpx;
+}
+
+.referrer-title{
+    font-size: 22rpx;
+    color: #707483;
+}
+
+.referrer-photo{
+    width: 68rpx;
+    height: 68rpx;
+    border-radius: 34rpx;
+    line-height: 84rpx;
+    margin-left: 8rpx;
+}
+
+.more-item{
+    min-height: 100vh;
+    padding: 144rpx 92rpx 0 92rpx;
+    background-color: #22272f;
+    margin-right: -30rpx;
+    margin-bottom: -80rpx;
+}
+
+.more-list{
+    width: 268rpx;
+    display: inline-block;
+    margin-right: 30rpx;
+    margin-bottom: 80rpx;
+}
+
+.more-book-photo{
+    width: 268rpx;
+    height: 400rpx;
+    border-radius: 20rpx;
+}
+
+.more-book-name{
+    display: block;
+    font-size: 26rpx;
+    text-align: center;
+    padding-top: 25rpx;
+}

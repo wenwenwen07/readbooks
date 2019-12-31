@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/bookrack/bookrack",
+    "pages/user/user",
+    "pages/scienceFiction/scienceFiction",
+    "pages/explore/explore"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#21272e",
+    "navigationBarTitleText": "readBook",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#2a313a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "./assets/font-home.png",
+        "selectedIconPath": "./assets/font-home2.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "text": "",
+        "iconPath": "./assets/font-world.png",
+        "selectedIconPath": "./assets/font-world2.png"
+      },
+      {
+        "pagePath": "pages/bookrack/bookrack",
+        "text": "",
+        "iconPath": "./assets/font-book.png",
+        "selectedIconPath": "./assets/font-book2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "",
+        "iconPath": "./assets/font-user.png",
+        "selectedIconPath": "./assets/font-user2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,49 @@
+<!-- pages/scienceFiction/scienceFiction.wxml -->
+<view class="main">
+    <view class="hot-sale">
+        <view class="hot-sale-list">
+            <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+            <view class="hot-sale-massage">
+                <view class="hot-sale-book-name">
+                    <text>三体：死神永生</text>
+                    <icon class="iconfont icon-more"></icon>
+                </view>
+                <view class="hot-sale-author">作者：刘慈心</view>
+                <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+            </view>
+        </view>
+        <view class="hot-sale-list">
+            <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+            <view class="hot-sale-massage">
+                <view class="hot-sale-book-name">
+                    <text>三体：死神永生</text>
+                    <icon class="iconfont icon-more"></icon>
+                </view>
+                <view class="hot-sale-author">作者：刘慈心</view>
+                <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+            </view>
+        </view>
+        <view class="hot-sale-list">
+            <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+            <view class="hot-sale-massage">
+                <view class="hot-sale-book-name">
+                    <text>三体：死神永生</text>
+                    <icon class="iconfont icon-more"></icon>
+                </view>
+                <view class="hot-sale-author">作者：刘慈心</view>
+                <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+            </view>
+        </view>
+        <view class="hot-sale-list">
+            <image class="hot-sale-img" src="../../assets/books2.png" mode="aspectFit|aspectFill|widthFix"></image>
+            <view class="hot-sale-massage">
+                <view class="hot-sale-book-name">
+                    <text>三体：死神永生</text>
+                    <icon class="iconfont icon-more"></icon>
+                </view>
+                <view class="hot-sale-author">作者：刘慈心</view>
+                <text class="hot-sale-intro">刘慈欣创作的系列长篇科幻小说地球往事三部曲的第三部作品...</text>
+            </view>
+        </view>
+    </view>
+</view>
